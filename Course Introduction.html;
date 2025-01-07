@@ -1,0 +1,35 @@
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Design and Analysis of Algorithms</title>
+</head>
+<body>
+    <h1>Design and Analysis of Algorithms</h1>
+    <p>The Design and Analysis of Algorithms course dives into the fundamental concepts and techniques used to develop efficient, robust algorithms. This course covers key topics including:</p>
+    <ul>
+        <li><strong>Introduction to Algorithms:</strong> Understanding basic algorithms and their applications.</li>
+        <li><strong>Complexity Analysis:</strong> Learning how to evaluate the time and space complexity of algorithms.</li>
+        <li><strong>Divide and Conquer:</strong> Exploring techniques to break problems into smaller subproblems and solve them recursively.</li>
+        <li><strong>Greedy Algorithms:</strong> Studying algorithms that make the best local choice at each stage to find an optimal global solution.</li>
+        <li><strong>Dynamic Programming:</strong> Learning methods to solve problems by breaking them down into simpler subproblems and storing their solutions.</li>
+        <li><strong>Graph Algorithms:</strong> Delving into algorithms related to graph structures such as shortest paths, minimum spanning trees, and network flow.</li>
+        <li><strong>Sorting and Searching:</strong> Examining classic algorithms for sorting and searching data efficiently.</li>
+        <li><strong>NP-Completeness:</strong> Understanding the classification of problems based on their computational difficulty.</li>
+    </ul>
+    <h2>Objectives:</h2>
+    <ul>
+        <li>Develop a deep understanding of various algorithmic techniques.</li>
+        <li>Learn to analyze and compare algorithm efficiencies.</li>
+        <li>Apply algorithms to solve real-world problems.</li>
+        <li>Gain insights into advanced topics like NP-Completeness and approximation algorithms.</li>
+    </ul>
+    <h2>Prerequisites:</h2>
+    <ul>
+        <li>Basic knowledge of data structures.</li>
+        <li>Familiarity with programming languages like C++ or Java.</li>
+    </ul>
+    <p>This course equips students with the tools and knowledge needed to design and analyze algorithms effectively, preparing them for more advanced studies and professional challenges in computer science.</p>
+</body>
+</html>
