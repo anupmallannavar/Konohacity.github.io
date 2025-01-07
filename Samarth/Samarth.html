@@ -1,1 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algorithms and Data Structures Overview</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #121212;
+            color: #e0e0e0;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+            line-height: 1.6;
+        }
 
+        h2 {
+            font-size: 2.5em;
+            color: #f1c27d;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            font-size: 1.8em;
+            color: #f1c27d;
+            margin-top: 30px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 10px;
+        }
+
+        ul li {
+            margin: 5px 0;
+            font-size: 1.2em;
+        }
+
+        strong {
+            color: #f1c27d;
+        }
+
+        .section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #1e1e1e;
+            border-radius: 10px;
+        }
+
+        a {
+            color: #f1c27d;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        a:hover {
+            color: #ffffff;
+        }
+
+        p {
+            font-size: 1.1em;
+            line-height: 1.8;
+        }
+
+        blockquote {
+            font-size: 1.5em;
+            font-style: italic;
+            color: #f1c27d;
+            margin: 20px 0;
+            padding: 20px;
+            border-left: 5px solid #f1c27d;
+            background-color: #222222;
+        }
+
+        .welcome-section {
+            background-color: #1e1e1e;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .welcome-section h1 {
+            font-size: 3em;
+            color: #f1c27d;
+            margin: 0;
+        }
+
+        .welcome-section p {
+            font-size: 1.2em;
+            color: #e0e0e0;
+        }
+
+        .sdg-section {
+            background-color: #1e1e1e;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 40px;
+        }
+
+        .sdg-section h2 {
+            font-size: 2.5em;
+            color: #f1c27d;
+            margin-bottom: 20px;
+        }
+
+        .sdg-section ul {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+  <li><a href="https://Samarth.github.io/Konohacity.github.io/Samarth/businesscases.html">Business Cases</a></li>
+  <header>
+    <a href="https://Samarth.github.io/Konohacity.github.io/" class="home-icon"><i class="fas fa-home"></i></a>
+    <h1>Algorithm Course Overview</h1>
+      
+    <!-- Your webpage content goes here -->
+    <h1>Welcome to Samarth's Webpage</h1>
+    <!-- other content -->
+  </header>
+    <section>
+
+      <h2>1. Problems in Nature</h2>
+        <p><strong>Recursion:</strong> Uncontrolled recursion, like in cancer, can lead to exponential growth.</p>
+        <p><strong>Iteration:</strong> Iterative cycles can be disrupted by climate change, leading to irregular seasons or extreme weather patterns.</p>
+        <p><strong>Backtracking:</strong> Migratory species may encounter obstacles and fail to backtrack to alternative routes.</p>
+    </section>
+
+   <section>
+        <h2>2. Iterative processes in nature get disrupted by external factors</h2>
+        <p><strong>Space Efficiency:</strong> Changes in temperature, rainfall, and weather patterns can disrupt migratory cycles or plant growth cycles that are typically iterative.</p>
+        <p><strong>Time Efficiency:</strong>  Iterative adaptation processes in species can be disrupted by sudden environmental changes.</p>
+        <p><strong>Why Important?</strong> Irregular seasons caused by climate change can disrupt the natural patterns of growth, reproduction, and migration in animals..</p>
+        
+        <h3>time and space efficiency</h3>
+        <ul>
+            <li>O(1) - Constant</li>
+            <li>O(n) - Linear</li>
+            <li>O(log n) - Logarithmic</li>
+            <li>O(n<sup>2</sup>) - Quadratic</li>
+            <li>O(n log n) - Linearithmic</li>
+            <li>O(n<sup>3</sup>) - Cubic</li>
+            <li>O(n<sup>k</sup>) - Polynomial</li>
+            <li>O(2<sup>n</sup>) - Exponential</li>
+            <li>O(n!) - Factorial</li>
+        </ul>
+    </section>
+
+   <section>
+        <h2>3. Takeaway from Different Design Principles</h2>
+        <h3>Sorting Algorithms</h3>
+        <ul>
+            <li><strong>Bubble Sort:</strong> Simple to understand and implement, best for small datasets.</li>
+            <li><strong>Selection Sort:</strong> Minimal swaps compared to bubble sort but not adaptive.</li>
+            <li><strong>Insertion Sort:</strong> Efficient for partially sorted datasets.</li>
+            <li><strong>Merge Sort:</strong> Stable and efficient for large dataset sorting.</li>
+            <li><strong>Quick Sort:</strong> In-place but not stable, efficient for large datasets.</li>
+            <li><strong>Heap Sort:</strong> In-place but not stable.</li>
+            <li><strong>Boyer More Algorithm:</strong> Effective for long texts and patterns. Utilizes pre-computation for optimal performance but requires extra space for preprocessing.</li>
+            <li><strong>Kruskal’s algorithm:</strong> Requires cycle detection, often implemented using union-find data structure. Suitable for sparse graphs.</li>
+            <li><strong>Dijkstra’s algorithm:</strong> Provides optimal solutions for single-source shortest paths in directed or undirected graphs.</li>
+            <li><strong>Floyd’s algorithm:</strong> Based on the principle of Kleene’s Theorem. All-pairs shortest path algorithm.</li>
+            <li><strong>Warshall’s algorithm:</strong> Based on the principle of Kleene’s theorem. Transitive closure algorithm. We can try to make the algorithm run faster by treating matrix as bit strings and employing bitwise operations.</li>
+            <li><strong>Prim’s Algorithm:</strong> Prim’s is based on the edge relaxation principle. Minimum spanning tree algorithm. Falls under the Greedy technique.</li>
+        </ul>
+    </section>
+
+  <section>
+        <h2>4. Hierarchical Data and Tree Data Structures</h2>
+        <ul>
+            <li><strong>Tree:</strong> Flexible but search or traversal may take O(n) due to lack of ordering or balancing.</li>
+            <li><strong>BST:</strong> Reduces the complexity of search operations to O(log n) on average by maintaining sorted order.</li>
+            <li><strong>AVL Tree:</strong> Balances the tree after every insertion or deletion, ensuring O(log n) operations.</li>
+            <li><strong>2-3 Tree:</strong> Always balanced, handling multiple keys in each node.</li>
+            <li><strong>Red-Black Tree:</strong> Less strict balancing, reducing the overhead of rotations during updates.</li>
+            <li><strong>Heap:</strong> Guarantees O(1) for finding max/min and O(log n) for insertions and deletions.</li>
+            <li><strong>Trie:</strong> Exploits shared prefixes, ideal for large datasets with overlapping entries.</li>
+        </ul>
+    </section>
+
+  <section>
+        <h2>5. Array Query Algorithms</h2>
+        <p>Array query algorithms include Fenwick Tree, Segment Tree, Lookup Table. These algorithms are essential for efficiently processing, retrieving, and analyzing data stored in arrays, especially with large datasets or frequently repeated queries.</p>
+        <ul>
+            <li><strong>Fenwick Tree:</strong>
+                <ul>
+                    <li>Principle: Supports efficient range queries and point updates.</li>
+                    <li>Application: Cumulative frequency counts in online queries.</li>
+                </ul>
+            </li>
+            <li><strong>Segment Tree:</strong>
+                <ul>
+                    <li>Principle: Divides array into segments for range queries and updates.</li>
+                    <li>Application: Dynamic histograms.</li>
+                </ul>
+            </li>
+            <li><strong>Lookup Table:</strong>
+                <ul>
+                    <li>Principle: Precomputes results for all possible inputs.</li>
+                    <li>Application: Collision detection, AI decision trees.</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+  <section>
+        <h2>6. Differentiation Between Trees and Graphs</h2>
+        <table>
+            <tr>
+                <th>Feature</th>
+                <th>Tree</th>
+                <th>Graph</th>
+            </tr>
+            <tr>
+                <td>Definition</td>
+                <td>A hierarchical data structure with nodes connected by edges.</td>
+                <td>A general data structure with nodes (vertices) connected by edges (can be directed/undirected).</td>
+            </tr>
+            <tr>
+                <td>Structure</td>
+                <td>Connected and acyclic.</td>
+                <td>May be connected or disconnected, cyclic or acyclic.</td>
+            </tr>
+            <tr>
+                <td>Root</td>
+                <td>Has a single root node.</td>
+                <td>No concept of a root (unless it's a tree-based graph).</td>
+            </tr>
+            <tr>
+                <td>Parent-Child Relationship</td>
+                <td>Nodes follow a strict parent-child hierarchy.</td>
+                <td>No strict hierarchy; any node can connect to any other node.</td>
+            </tr>
+            <tr>
+                <td>Edges</td>
+                <td>Exactly n−1 edges for n nodes.</td>
+                <td>Can have any number of edges (up to n(n−1)/2 for undirected graphs).</td>
+            </tr>
+            <tr>
+                <td>Traversal</td>
+                <td>DFS and BFS, plus tree-specific traversals (inorder, preorder, postorder).</td>
+                <td>Typically DFS and BFS, without hierarchy-based traversal.</td>
+            </tr>
+            <tr>
+                <td>Cyclic Nature</td>
+                <td>Always acyclic.</td>
+                <td>Can contain cycles (e.g., directed graphs with loops).</td>
+            </tr>
+        </table>
+    </section>
+
+   <section>
+        <h3>Graph Traversals</h3>
+        <ul>
+            <h2>Depth-First Search (DFS)</h2>
+    <p>
+        DFS is a graph traversal algorithm that explores as deep as possible along a branch before backtracking. It works by starting at a root node and then exploring as far as possible along each branch before backtracking.
+    </p>
+
+    <h2>Breadth-First Search (BFS)</h2>
+    <p>
+        BFS is a graph traversal algorithm that explores all neighbor nodes at the present depth prior to moving on to the next depth level. It starts at a source node and explores all its neighbors, then explores the neighbors of those neighbors, and so on.
+    </p>
+</body>
+</html>
+
+        <h2>7. Sorting and Searching Algorithms</h2>
+        <table>
+            <tr><th>Algorithm</th><th>Technique</th><th>Time Complexity</th><th>Real-World Applications</th></tr>
+            <tr><td>Bubble Sort</td><td>Compare adjacent elements and swap if needed.</td><td>O(n²)</td><td>Educational purposes to teach algorithm basics.</td></tr>
+            <tr><td>Selection Sort</td><td>Find the minimum and place it at the beginning.</td><td>O(n²)</td><td>Simple applications where memory is minimal (e.g., small embedded systems).</td></tr>
+            <tr><td>Insertion Sort</td><td>Build a sorted portion by inserting elements.</td><td>O(n²)</td><td>Small datasets like sorting playing cards.</td></tr>
+            <tr><td>Merge Sort</td><td>Divide-and-conquer: split, sort, and merge.</td><td>O(n log n)</td><td>Sorting large datasets in external storage, like disk drives.</td></tr>
+            <tr><td>Quick Sort</td><td>Partitioning based on a pivot element.</td><td>O(n log n)</td><td>Databases, language libraries (e.g., Python's Timsort).</td></tr>
+            <tr><td>Heap Sort</td><td>Use a heap data structure to extract max/min.</td><td>O(n log n)</td><td>Scheduling systems and prioritization.</td></tr>
+        </table>
+
+          <h2>8. Importance of Graph Algorithms</h2>
+        <ul>
+            <li><strong>Dijkstra’s Algorithm:</strong> Finds the shortest path from a single source to all other vertices in a weighted graph with non-negative weights. Applications: Roadmaps, telecommunications.</li>
+            <li><strong>Floyd’s Algorithm:</strong> Computes shortest paths between all pairs of vertices in a weighted graph. Applications: Urban transit planning.</li>
+            <li><strong>Warshall’s Algorithm:</strong> Determines transitive closure to verify connectivity before spanning tree construction.</li>
+            <li><strong>Kruskal’s Algorithm:</strong> Constructs a minimum spanning tree by sorting and adding edges in order of increasing weight. Applications: Power grids, telecommunication lines.</li>
+            <li><strong>Prim’s Algorithm:</strong> Builds a minimum spanning tree by growing one vertex at a time. Efficient for dense graphs.</li>
+        </ul>
+
+          <h2>9. Differences between different sorting algorithms</h2>
+        <ul>
+            <li><strong>Divide and Conquer:</strong> Bubble Sort is simple but inefficient for large datasets (O(n²)), whereas Merge Sort is much more efficient (O(n log n)) and is stable.</li>
+            <li><strong>Greedy Algorithm:</strong> Insertion Sort is more efficient for small or partially sorted datasets, while Quick Sort is highly efficient for large datasets, though it is not stable.</li>
+            <li><strong>Backtracking:</strong> Heap Sort is in-place but slower compared to Quick Sort. Quick Sort, while not stable, is often preferred for larger datasets due to its partitioning efficiency.</li>
+            <li><strong>Recursion:</strong> Solve a problem by solving smaller instances of the same problem. Examples: Tower of Hanoi, Fibonacci numbers.</li>
+        </ul>
+    </div>
+</body>
